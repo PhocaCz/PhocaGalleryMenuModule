@@ -1,0 +1,1 @@
+Phoca Gallery Menu Module is Joomla! CMS extension. Module which displays categories from Phoca Gallery component in menu position.
