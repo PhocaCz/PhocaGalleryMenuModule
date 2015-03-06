@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" client="site" method="upgrade" version="3">
+	<name>mod_phocagallery_menu</name>
+	<author>Jan Pavelka (www.phoca.cz)</author>
+	<creationDate>22/04/2014</creationDate>
+	<authorEmail></authorEmail>
+	<authorUrl>www.phoca.cz</authorUrl>
+	<copyright>Jan Pavelka</copyright>
+	<license>GNU/GPL</license>
+	<version>4.1.0</version>
+	<description>MOD_PHOCAGALLERY_MENU_DESCRIPTION</description>
+
+	<files>
+		<folder>assets</folder>
+		<folder>language</folder>
+		<folder>tmpl</folder>
+		<filename module="mod_phocagallery_menu">mod_phocagallery_menu.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_phocagallery_menu.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_phocagallery_menu.sys.ini</language>
+	</languages>
+	
+<config>
+		<fields name="params">
+			<fieldset name="basic">
+			
+			
+		<field name="hide_categories" type="textarea" rows="2" cols="26" default="" label="MOD_PHOCAGALLERY_MENU_HIDE_CATEGORIES_LABEL" description="MOD_PHOCAGALLERY_MENU_HIDE_CATEGORIES_DESC" />
+		
+		<field name="display_access_category" type="list" default="0" label="MOD_PHOCAGALLERY_MENU_DISPLAY_ACCESS_CATEGORIES_LABEL" description="MOD_PHOCAGALLERY_MENU_DISPLAY_ACCESS_CATEGORIES_DESC">
+			<option value="1">MOD_PHOCAGALLERY_MENU_YES</option>
+			<option value="0">MOD_PHOCAGALLERY_MENU_NO</option>
+		</field>
+		
+		<field name="menu_theme" type="list" default="ThemePhoca" label="MOD_PHOCAGALLERY_MENU_PHOCA_THEME_LABEL" description="MOD_PHOCAGALLERY_MENU_PHOCA_THEME_DESC">
+			<option value="ThemePhoca">MOD_PHOCAGALLERY_MENU_PHOCA_THEME</option>
+		</field>
+		
+		<field name="menu_type" type="list" default="0" label="MOD_PHOCAGALLERY_MENU_MENU_TYPE_LABEL" description="MOD_PHOCAGALLERY_MENU_MENU_TYPE_DESC">
+			<option value="hbr">MOD_PHOCAGALLERY_MENU_HORIZONTAL_BOTTOM_RIGHT</option>
+			<option value="hur">MOD_PHOCAGALLERY_MENU_HORIZONTAL_UP_RIGHT</option>
+			<option value="hbl">MOD_PHOCAGALLERY_MENU_HORIZONTAL_BOTTOM_LEFT</option>
+			<option value="hul">MOD_PHOCAGALLERY_MENU_HORIZONTAL_UP_LEFT</option>
+			<option value="vbr">MOD_PHOCAGALLERY_MENU_VERTICAL_BOTTOM_RIGHT</option>
+			<option value="vur">MOD_PHOCAGALLERY_MENU_VERTICAL_UP_RIGHT</option>
+			<option value="vbl">MOD_PHOCAGALLERY_MENU_VERTICAL_BOTTOM_LEFT</option>
+			<option value="vul">MOD_PHOCAGALLERY_MENU_VERTICAL_UP_LEFT</option>
+		</field>
+			</fieldset>
+			
+			
+			<fieldset name="advanced">
+		
+<field
+name="moduleclass_sfx"
+type="text"
+label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				
+<field name="module_css_style" type="text" label="MOD_PHOCAGALLERY_MENU_CSS_STYLE_LABEL" description="MOD_PHOCAGALLERY_MENU_CSS_STYLE_DESC" />
+				
+<field
+name="cache"
+type="list"
+default="0"
+label="COM_MODULES_FIELD_CACHING_LABEL"
+description="COM_MODULES_FIELD_CACHING_DESC">
+<option
+	value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+</field>
+			</fieldset>	
+		</fields>
+	</config>
+</extension>
