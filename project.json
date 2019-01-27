@@ -1,0 +1,16 @@
+{
+	"author": "Jan Pavelka (www.phoca.cz)",
+	"authorUrl": "https://www.phoca.cz",
+	"copyright": "Jan Pavelka",
+	"license": "GNU/GPL",
+	"projectName": "PhocaGalleryMenuModule",
+	"extensionName": "Phoca Gallery Menu Module",
+	"projectInitials" : "PG",				  
+	"description": "Phoca Gallery Menu Module is a Joomla! module which displays a menu (horizontal or vertical) of Phoca Gallery categories.",
+	"projectUrl": "https://www.phoca.cz/phocagallery-menu",
+	"projectDocumentationUrl": "https://www.phoca.cz/documentation/category/8-phoca-gallery-menu-module",
+	"projectDemo" : {
+		"Joomla! 1.5 Demo": "https://www.phoca.cz/demo/"
+	},
+	"projectColor": "#95313e"
+}

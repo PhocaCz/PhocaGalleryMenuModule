@@ -1,0 +1,203 @@
+.ThemePhocaMenu,.ThemePhocaSubMenuTable {
+	font-family:	verdana, arial, sans-serif;
+	font-size:		12px;
+	padding:		0;
+	white-space:	nowrap;
+	cursor:			default;
+}
+
+.ThemePhocaSubMenu {
+	position:	absolute;
+	visibility:	hidden;
+	z-index:	100;
+	border:		0;
+	padding:	0;
+	overflow:	visible;
+	border:		1px solid #8C867B;
+}
+
+.ThemePhocaSubMenuTable {
+	overflow:	visible;
+}
+
+.ThemePhocaMainItem,.ThemePhocaMainItemHover,.ThemePhocaMainItemActive,
+.ThemePhocaMenuItem,.ThemePhocaMenuItemHover,.ThemePhocaMenuItemActive {
+	border:			0;
+	cursor:			default;
+	white-space:	nowrap;
+}
+
+.ThemePhocaMainItem {
+}
+
+.ThemePhocaMainItemHover,.ThemePhocaMainItemActive {
+	padding:			4px 20px 4px 10px;
+	border:				1px solid #FF9980;
+	background-color:	#FFEBE6;
+}
+
+.ThemePhocaMenuItem {
+	background-color:	#fff;
+	padding:			4px 20px 4px 2px;
+}
+
+.ThemePhocaMenuItemHover,.ThemePhocaMenuItemActive {
+	padding:			4px 20px 4px 2px;
+	border:				1px solid #FF9980;
+	background-color:	#FFEBE6;
+}
+
+
+/* horizontal menu */
+.ThemePhocaMainItem  {
+	padding:	4px 20px 4px 2px;
+	border:		1px solid #f0f0f0;
+	background:	#f0f0f0;
+}
+
+td.ThemePhocaMainItemHover,td.ThemePhocaMainItemActive {
+	padding:	4px 20px 4px 2px;
+	border:		1px solid #FF9980;
+	background:	#FFEBE6;
+}
+
+.ThemePhocaMainFolderLeft,.ThemePhocaMainItemLeft {
+	padding-right:5px;
+	background-color:	inherit;
+}
+
+.ThemePhocaMainFolderText,.ThemePhocaMainItemText,
+.ThemePhocaMainFolderRight,.ThemePhocaMainItemRight {
+	background-color:	inherit;
+}
+
+/* vertical menu - submenus */
+
+td.ThemePhocaMainFolderLeft,td.ThemePhocaMainItemLeft {
+	padding: 2px 2px 2px 0px;
+	border-top:	1px solid #FF9980;
+	border-bottom:	1px solid #FF9980;
+	border-left:	1px solid #FF9980;
+	background-color:	inherit;
+}
+
+td.ThemePhocaMainFolderText,td.ThemePhocaMainItemText {
+	padding: 2px 5px 2px 5px;
+	border-top:	1px solid #FF9980;
+	border-bottom:	1px solid #FF9980;
+	background-color:	inherit;
+	white-space:	nowrap;
+}
+
+td.ThemePhocaMainFolderRight,td.ThemePhocaMainItemRight {
+	padding: 2px 0px 2px 0px;
+	border-top:	1px solid #FF9980;
+	border-bottom:	1px solid #FF9980;
+	border-right:	1px solid #FF9980;
+	background-color:	inherit;
+}
+
+tr.ThemePhocaMainItem td.ThemePhocaMainFolderLeft,
+tr.ThemePhocaMainItem td.ThemePhocaMainItemLeft {
+	padding: 3px 2px 3px 2px;
+	white-space:	nowrap;
+	border:		0;
+	background-color:	inherit;
+}
+
+tr.ThemePhocaMainItem td.ThemePhocaMainFolderText,
+tr.ThemePhocaMainItem td.ThemePhocaMainItemText {
+	padding: 3px 5px 3px 5px;
+	border:		0;
+	background-color:	inherit;
+}
+
+tr.ThemePhocaMainItem td.ThemePhocaMainItemRight,
+tr.ThemePhocaMainItem td.ThemePhocaMainFolderRight {
+	padding: 3px 1px 3px 0px;
+	border:		0;
+	background-color:	inherit;
+}
+
+/* sub menu sub components */
+.ThemePhocaMenuFolderLeft,.ThemePhocaMenuItemLeft {
+	padding: 2px 3px 2px 1px;
+	border-top:	1px solid #FF9980;
+	border-bottom:	1px solid #FF9980;
+	border-left:	1px solid #FF9980;
+	background-color:	inherit;
+	white-space:	nowrap;
+}
+
+.ThemePhocaMenuFolderText,.ThemePhocaMenuItemText {
+	padding: 2px 5px 2px 5px;
+	border-top:	1px solid #FF9980;
+	border-bottom:	1px solid #FF9980;
+	background-color:	inherit;
+	white-space:	nowrap;
+}
+
+.ThemePhocaMenuFolderRight,.ThemePhocaMenuItemRight {
+	padding: 2px 0px 2px 0px;
+	border-top:	1px solid #FF9980;
+	border-bottom:	1px solid #FF9980;
+	border-right:	1px solid #FF9980;
+	background-color:	inherit;
+	white-space:	nowrap;
+}
+
+.ThemePhocaMenuItem .ThemePhocaMenuFolderLeft,
+.ThemePhocaMenuItem .ThemePhocaMenuItemLeft {
+	padding: 3px 3px 3px 2px;
+	white-space:	nowrap;
+	border:		0;
+	background-color:	#EFEFDE;
+}
+
+.ThemePhocaMenuItem .ThemePhocaMenuFolderText,
+.ThemePhocaMenuItem .ThemePhocaMenuItemText
+ {
+	padding: 3px 5px 3px 5px;
+	border:		0;
+	background-color:	inherit;
+}
+
+.ThemePhocaMenuItem .ThemePhocaMenuFolderRight,
+.ThemePhocaMenuItem .ThemePhocaMenuItemRight {
+	padding: 3px 1px 3px 0px;
+	border:		0;
+	background-color:	inherit;
+}
+
+/* menu splits */
+
+.ThemePhocaMenuSplit {
+	margin:		2px;
+	height:		1px;
+	overflow:	hidden;
+	background-color:	inherit;
+	border-top:	1px solid #C6C3BD;
+}
+
+/* image shadow animation */
+/*
+	seq1:	image for normal
+	seq2:	image for hover and active
+	To use, in the icon field, input the following:
+	<img class="seq1" src="normal.gif" /><img class="seq2" src="hover.gif" />
+*/
+
+.ThemePhocaMenuItem img.seq1 {
+	display:	inline;
+}
+
+.ThemePhocaMenuItemHover seq2,
+.ThemePhocaMenuItemActive seq2 {
+	display:	inline;
+}
+
+.ThemePhocaMenuItem .seq2,
+.ThemePhocaMenuItemHover .seq1,
+.ThemePhocaMenuItemActive .seq1 {
+	display:	none;
+}
