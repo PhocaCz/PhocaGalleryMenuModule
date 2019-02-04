@@ -9,6 +9,8 @@
 	"description": "Phoca Gallery Menu Module is a Joomla! module which displays a menu (horizontal or vertical) of Phoca Gallery categories.",
 	"projectUrl": "https://www.phoca.cz/phocagallery-menu",
 	"projectDocumentationUrl": "https://www.phoca.cz/documentation/category/8-phoca-gallery-menu-module",
+	"projectMainComponent": "Phoca Gallery",
+	"projectMainComponentInfoUrl": "https://www.phoca.cz/project/phocagallery-joomla-gallery",
 	"projectDemo" : {
 		"Joomla! 1.5 Demo": "https://www.phoca.cz/demo/"
 	},

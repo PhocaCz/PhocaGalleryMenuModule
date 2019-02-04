@@ -16,6 +16,8 @@ Phoca Gallery Menu Module is a Joomla! module which displays a menu (horizontal 
 
 [Phoca Gallery Menu Module](https://www.phoca.cz/phocagallery-menu)
 
+[Phoca Gallery Info Page](https://www.phoca.cz/project/phocagallery-joomla-gallery)
+
 
 
 ## Documentation
