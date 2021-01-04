@@ -2,7 +2,7 @@
 
 
 
-![Phoca Gallery Menu Module](https://github.com/PhocaCz/PhocaGalleryMenuModule/blob/master/mod_phocagallery_menu.png)
+![Phoca Gallery Menu Module](https://github.com/PhocaCz/PhocaGalleryMenuModule/blob/master/mod_phocagallery_menu.png?raw=true)
 
 # Phoca Gallery Menu Module
 
@@ -23,6 +23,8 @@ Phoca Gallery Menu Module is a Joomla! module which displays a menu (horizontal 
 ## Documentation
 
 [Documentation](https://www.phoca.cz/documentation/category/8-phoca-gallery-menu-module)
+
+
 
 
 
@@ -52,7 +54,7 @@ Phoca Gallery Menu Module is a Joomla! module which displays a menu (horizontal 
 
 ## Version
 
-4.3.11
+4.4.0
 
 
 
